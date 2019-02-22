@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="130.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.RoomAccess">
+   <children>
+      <Label layoutX="25.0" layoutY="61.0" text="RoomMaster" />
+      <Label layoutX="104.0" layoutY="14.0" text="ACCESS VIILAGE" />
+      <Button fx:id="btnAccess" layoutX="120.0" layoutY="98.0" mnemonicParsing="false" text="ACCESS" />
+      <TextField fx:id="textfieldroomaccess" layoutX="104.0" layoutY="57.0" prefHeight="23.0" prefWidth="163.0" />
+   </children>
+</AnchorPane>

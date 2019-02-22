@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="612.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Server">
+   <children>
+      <TextArea fx:id="textServer" layoutX="13.0" layoutY="24.0" prefHeight="224.0" prefWidth="275.0" />
+      <Label layoutX="129.0" layoutY="7.0" text="SERVER" />
+      <ListView fx:id="serverCitizenList" layoutX="13.0" layoutY="334.0" prefHeight="237.0" prefWidth="130.0" />
+      <ListView fx:id="serverMafiaList" layoutX="158.0" layoutY="334.0" prefHeight="237.0" prefWidth="130.0" />
+      <Label layoutX="55.0" layoutY="312.0" text="CITIZEN" />
+      <Label layoutX="200.0" layoutY="312.0" text="MAFIA" />
+      <Button fx:id="btnStartStop" layoutX="14.0" layoutY="258.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="275.0" text="CONNECT SERVER" />
+      <Button fx:id="btnStartGame" layoutX="13.0" layoutY="580.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="88.0" text="Start Game" />
+      <Button fx:id="btnEndMurder" layoutX="108.0" layoutY="580.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="88.0" text="End Murder" />
+      <Button fx:id="btnEndVote" layoutX="200.0" layoutY="579.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="88.0" text="End Vote" />
+   </children>
+</AnchorPane>

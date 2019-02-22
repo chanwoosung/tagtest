@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="150.0" prefWidth="277.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="Controller.Choice">
+   <children>
+      <Separator layoutX="142.0" layoutY="15.0" orientation="VERTICAL" prefHeight="131.0" prefWidth="5.0" />
+      <Label layoutX="26.0" layoutY="8.0" text="ROOM MASTER" />
+      <Label layoutX="180.0" layoutY="8.0" text="CUSTOMER" />
+      <ImageView fx:id="imageChoiceMaster" fitHeight="93.0" fitWidth="110.0" layoutX="21.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/home-146585_1280.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageChoiceCustomer" fitHeight="93.0" fitWidth="88.0" layoutX="179.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/community-1294832_1280.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
